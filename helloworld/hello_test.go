@@ -11,3 +11,7 @@ func TestHelloWorld(t *testing.T) {
 		t.Errorf("actual:%s want:%s", actual, expected)
 	}
 }
+
+func TestHelloWorld(t *testing.T){
+	Hello("aaaa")
+}
